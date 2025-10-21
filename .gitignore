@@ -1,0 +1,64 @@
+# Virtual Environment.
+venv/
+env/
+.venv/
+.env/
+easy_life_env/
+
+# VSCode config files.
+.idea/
+.vscode/
+*.iml
+
+# Cache temporary files.
+*.sass-cache
+.cache/
+node_modules/
+
+# Python files.
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+
+# Config files and local parameters.
+*.local
+*.log
+*.pot
+*.swp
+*.swo
+*.DS_Store
+*.coverage
+local_settings.py
+# projects/management/commands/
+# cv/management/commands/
+# contact/management/commands/
+
+# Log files.
+*.log
+
+# Local database files.
+# db.sqlite3
+
+# PostgreSQL files.
+*.dump
+*.backup
+
+# Tests directories.
+/test/
+/tests/
+
+# compilation and deployment files.
+dist/
+build/
+*.egg-info/
+*.eggs/
+MANIFEST
+
+# Other files to ignore.
+staticfiles/
+media/
+
+# Sensitives config files.
+*.env
+.env.*
